@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../../fonts/Cairo-Regular.woff2') format('woff2'),
+        url('../../fonts/Cairo-Regular.woff') format('woff');
+   
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Plain Cred';
+    src: url(../../fonts/PlainCred.ttf);
+  
+}
+@font-face
+{
+    font-family: "Roboto-Regular";
+    src:url("../../fonts/Roboto-Regular.ttf");
+}
+@font-face
+{
+    font-family: "Cairo-Bold";
+    src:url("../../fonts/Cairo-Bold.ttf");
+}
+// @font-face
+// {
+//     font-family: 'Cairo-Regular';
+//     src:url("../../fonts/Cairo-Regular.ttf");
+// }
+@font-face
+{
+    font-family: 'Cairo-SemiBold';
+    src:  url('../../fonts/Cairo-SemiBold.woff2') format('woff2'),
+          url('../../fonts/Cairo-SemiBold.woff') format('woff');
+}
+@font-face
+{
+    font-family: 'Cairo-Regular';
+    src:  url('../../fonts/Cairo-Regular.woff2') format('woff2'),
+          url('../../fonts/Cairo-Regular.woff') format('woff');
+}
+
+$white:#fff;
+$black:#000;
+$night-rider:#333333;
+$Dodger-Blue:#0099ff;
+$basic-color:#fcb416;
+$background:#f5f5f5;
+.i-color
+{
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fcb416;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-title
+{
+    
+}
