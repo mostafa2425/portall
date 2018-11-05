@@ -6,8 +6,8 @@ $(document).ready(function () {
   var ItemsContentStorage = localStorage.getItem("Itemscontent");
   var WishListStorage = localStorage.getItem("WishList");
   var CopmareListStorage = localStorage.getItem("CopmareList");
-    var vv = 'welcome';
-    console.log(vv);
+  var tt = "from tornado";
+  console.log(tt);
 
   $(".i-color").on("click", function () {
     window.location.href = "cart.html";
